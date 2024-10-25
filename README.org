@@ -1,4 +1,4 @@
-#+title: ChemScribe (الكتبة)
+#+title: ChemScribe (סוֹפֵר)
 #+author: Erik P Almaraz (logoraz)
 
 /A Highly Extensible Chemical Formula Builder and Molecular Editor with Regulatory
