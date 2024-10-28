@@ -17,10 +17,15 @@
 
 ;;; Commentary:
 ;;;
-;;; This composite module re-exports core parts the (chemscribe …) public modules.
+;;; Databse for ChemScribe it has four parts:
+;;; 1. Molecular Data Type
+;;; 2. Raw Material Data Type
+;;; 3. Formula Data Type
+;;; 4. Regulatory Data Type
 ;;;
 ;;; Code:
 
-(define-module (chemscribe)
-
-  )
+(define-module (chemscribe database)
+  #:use-module (ice-9 optarg)
+  #:use-module (ice-9 ftw)
+  #:export ())
